@@ -103,7 +103,7 @@ class Deque():
         """
         Return the last [number] of inserted values.
         
-        Retrieve(int) -> list<X>
+        Poll(int) -> list<X>
         """
         # Initial index calculations
         size = self._size
@@ -126,7 +126,7 @@ class Deque():
         """
         Return the last [number] of inserted values, in reversed order.
         
-        Retrieve(int) -> list<X>
+        PollR(int) -> list<X>
         """
         return self.Retrieve(number)[::-1]
 
