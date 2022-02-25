@@ -128,6 +128,6 @@ class Deque():
         
         PollR(int) -> list<X>
         """
-        return self.Retrieve(number)[::-1]
+        return self.Poll(number)[::-1]
 
 
